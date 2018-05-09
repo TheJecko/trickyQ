@@ -35,9 +35,10 @@ header,
 	font-family: "Lato";
 	border: solid .5px #648880;
 	margin-bottom: 20px;
+	line-height: 2em;
 }
 
-.btn_header {
+.header {
 	width:100%;
 	background: #293f50;
 	border: none;

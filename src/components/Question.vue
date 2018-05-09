@@ -2,7 +2,8 @@
 
 <div class="content">
 
-		<button class="btn_header content" @click='toggle()'>Q: {{q}}</button>
+		<span class="header content" @click='toggle()'>Q: {{q}}</span>
+		<br>
 		<span v-show="isOpen"> A: {{a}}</span>
 						
 </div>
